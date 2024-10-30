@@ -5,3 +5,23 @@ body {
     background-color:#DFCDB5;
 
 }
+
+* {
+    color: #70731F;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 95%;
+}
+
+.page-wrapper{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    margin: 0 auto;
+    width: 655px;
+    background-color: #ddc4a3;
+    background: url('zen-garden.jpg') no-repeat top left;
+    background-size: contain;
+    padding: 25px;
+    height: 2800px;
+}
+

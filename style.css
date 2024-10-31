@@ -2,26 +2,108 @@
 
 body {
     margin:0;
-    background-color:#DFCDB5;
-
+    background-color:#926934;
+    background-image: url('dirt.jpg');
 }
 
 * {
     color: #70731F;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    font-size: 95%;
+    font-size: 13px;
 }
 
 .page-wrapper{
     display:flex;
     flex-direction: column;
-    justify-content:center;
+    flex-wrap: wrap;
     margin: 0 auto;
     width: 655px;
     background-color: #ddc4a3;
     background: url('zen-garden.jpg') no-repeat top left;
     background-size: contain;
     padding: 25px;
-    height: 2800px;
+    height: 2783px;
 }
 
+header {
+    margin-bottom: 250px;
+    text-indent: -300em;
+    overflow: hidden;
+}
+
+#zen-summary {
+    background-color: #A2A63F;
+    padding:5px;
+    border: #BF9969 solid 5px;
+    border-radius: 15px;
+    text-align:center
+}
+
+.summary p:last-child {
+    font-size:75%;
+}
+
+h3 {
+    font-size:15px;
+}
+
+.preamble, .explanation, .participation, .benefits, .requirements {
+    background-color: #A2A63F;
+    padding:5px;
+    border: #BF9969 solid 5px;
+    border-radius: 15px;
+    margin-top: 40px;
+    margin-right: 310px;
+    margin-left: 40px;
+    text-align: left;
+}
+
+.sidebar {
+    position: absolute;
+    top:430px;
+    margin-left: 29%;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding-inline-start: 10px;
+}
+
+.sidebar li {
+    background: transparent url('ant.png') no-repeat top left;
+    background-size: 20px 20px;
+    padding: 0 0 0 28px;
+    margin-bottom: 10px;
+}
+
+.design-selection, .design-archives, .zen-resources {
+    background-color: #A2A63F;
+    padding:5px;
+    border: #BF9969 solid 5px;
+    border-radius: 15px;
+    margin-top: 50px;
+    width:200px
+}
+
+.design-selection li a.designer-name {
+    display:inline;
+}
+
+.design-selection li a {
+    display:block;
+}
+
+.design-name {
+    font-weight:bolder ;
+}
+
+footer {
+    background-color:#A2A63F;
+    display:flex;
+    align-items:center;
+    justify-content:space-evenly;
+    padding:5px;
+    border: #BF9969 solid 5px;
+    border-radius: 15px;
+    margin-top: 50px;
+}
